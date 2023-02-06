@@ -176,7 +176,7 @@ img {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  min-width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 .hero-title {
@@ -298,7 +298,8 @@ img {
   height: 88px;
   fill: #8e8f99;
 }
-.customers-list-link:hover {
+.customers-list-link:hover,
+.customers-list-link:focus {
   border: 1px solid #404bbf;
   fill: #404bbf;
 }
